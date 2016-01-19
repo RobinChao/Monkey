@@ -1,0 +1,15 @@
+{
+    "custom_root_key": [
+        {
+            "id": 1,
+            "name": "The name"
+        },
+        {
+            "id": 2,
+            "name": "The name"
+        }
+    ],
+    "some_other_array": [
+        "hello"
+    ]
+}

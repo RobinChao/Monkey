@@ -1,0 +1,15 @@
+{
+    "test_objects": [
+        {
+            "id": 1,
+            "name": "The name"
+        },
+        {
+            "id": 2,
+            "name": "The name"
+        }
+    ],
+    "some_other_array": [
+        "hello"
+    ]
+}

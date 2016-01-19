@@ -1,0 +1,9 @@
+{
+    "custom_root_key": {
+        "id": 1,
+        "name": "The name"
+    },
+    "some_other_object": {
+        "key" : "value"
+    }
+}
