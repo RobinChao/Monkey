@@ -1,14 +1,14 @@
 
 {
     "test_object": {
-        "comic_book": {
+        "main_object": {
             "id": 5,
             "name": "comic_bookCaptain Lolface",
             "boolll": false,
             "optional_notes": "comic_bookMint condition",
             "date": 1453187501
         },
-        "some_other_object": [
+        "inlineObjects": [
                               {
                               "id": 10,
                               "name": "some_other_objectMy Little Lolface",

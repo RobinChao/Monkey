@@ -40,8 +40,7 @@ class Final: Monkey {
     var inlineModel: [InlineModel]?
     
     override func didDeserializeDictionary(dictionary: NSDictionary) {
-        model = Model(jsonObject: dictionary, rootKey: "comic_book")
-        inlineModel = InlineModel.deserializeArray(dictionary, rootKey:"some_other_object")
+        model = Model(jsonObject: dictionary, rootKey: "main_object")
+        inlineModel = InlineModel.deserializeArray(dictionary, rootKey:"inlineObjects")
     }
-
 }

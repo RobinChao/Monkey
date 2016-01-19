@@ -57,7 +57,6 @@
 		008AFC2A1C4DE0EC007580F8 /* MonkeyDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeyDemoTests.swift; sourceTree = "<group>"; };
 		008AFC2C1C4DE0EC007580F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		008AFC361C4DE136007580F8 /* Monkey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monkey.swift; sourceTree = "<group>"; };
-		008AFC391C4DE500007580F8 /* Monkey.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Monkey.playground; sourceTree = "<group>"; };
 		008AFC3A1C4DF1DA007580F8 /* DateObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateObject.swift; sourceTree = "<group>"; };
 		008AFC3E1C4DF3D5007580F8 /* date_object.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = date_object.json; sourceTree = "<group>"; };
 		008AFC3F1C4DF3D5007580F8 /* problematic_keys.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = problematic_keys.json; sourceTree = "<group>"; };
@@ -123,7 +122,6 @@
 				008AFC1C1C4DE0EC007580F8 /* Assets.xcassets */,
 				008AFC1E1C4DE0EC007580F8 /* LaunchScreen.storyboard */,
 				008AFC211C4DE0EC007580F8 /* Info.plist */,
-				008AFC391C4DE500007580F8 /* Monkey.playground */,
 				008AFC5A1C4DFE35007580F8 /* Model.swift */,
 				008AFC5C1C4DFE76007580F8 /* json.json */,
 			);
