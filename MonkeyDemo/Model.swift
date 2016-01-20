@@ -15,11 +15,21 @@ class Model: Monkey {
     var name:String!
     var boolll: Bool = false
     var date: NSDate!
-    
+    var array: [String]?
+    var temps: [Temp]?
+
+    override class func objectClassInArray() ->  [String : AnyClass]? {
+        return ["temps" : Temp.self]
+    }
     
     override class func transfromDate(oldValue: AnyObject) -> AnyObject? {
         return NSDate(timeIntervalSince1970: oldValue.doubleValue)
     }
+}
+
+class Temp: Monkey {
+    var id: String!
+    var name: String!
 }
 
 class InlineModel: Monkey {

@@ -22,6 +22,8 @@ class ViewController: UIViewController {
                 print("model!.name: \(model.model!.name)")
                 print("model!.boolll: \(model.model!.boolll)")
                 print("model!.date: \(model.model!.date)")
+                print("model!.date: \(model.model!.array)")
+                print("model!.date: \(model.model!.temps)")
                 print("\n")
                 print("inlineModel!.count: \(model.inlineModel!.count)")
                 

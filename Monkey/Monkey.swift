@@ -57,6 +57,9 @@ public class Monkey: NSObject{
         return nil
     }
     
+    public class func objectClassInArray() -> [String : AnyClass]? {
+        return nil
+    }
     
     //MAKR: -Singleton object deserialization
     public class func deserialize<T: Monkey>(jsonData: NSData?, rootKey: String? = nil) -> T? {
@@ -140,6 +143,19 @@ public class Monkey: NSObject{
                         if let _ = value as? NSNull {
                             value = nil
                         }
+                        
+                        //如果属性为Array，判断其中是否有内联对象数组
+                        if propertyAttributes?.rangeOfString("\"NSArray\"") != nil {
+                            //如果用户指定了内联数组对象
+                            if let objectClassIn = self.dynamicType.objectClassInArray() {
+                                if  let inlineObject: AnyClass =  objectClassIn[key as! String]   {
+                                    print("\(inlineObject)")
+                                    //TODO: 需要给据指定的数组对象，进行解析
+                                    
+                                }
+                            }
+                        }
+                      
                         
                         if propertyAttributes?.rangeOfString("\"NSDate\"") != nil {
                             //this is an NSDate

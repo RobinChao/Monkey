@@ -6,7 +6,18 @@
             "name": "comic_bookCaptain Lolface",
             "boolll": false,
             "optional_notes": "comic_bookMint condition",
-            "date": 1453187501
+            "date": 1453187501,
+            "array" :["fdsa","fdsaf","lslsl"],
+            "temps": [
+                    {
+                    "id": 1111111,
+                    "name": "some_other_objectMy Little Lolface"
+                    },
+                    {
+                    "id": 2222222,
+                    "name": "some_other_objectMagic etc"
+                    }
+            ]
         },
         "inlineObjects": [
                               {
