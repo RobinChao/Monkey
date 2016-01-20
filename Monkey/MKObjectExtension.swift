@@ -10,8 +10,8 @@ import Foundation
  }
  
  extension NSObject: MonkeyProtocol {
-    
-    func setProperty(json: AnyObject!){
+
+     func setProperty(json: AnyObject!){
         //CHECK  PROTOCOL
         var replacePropertyName: [String : String]?
         var replaceObjectClass: [String : String]?

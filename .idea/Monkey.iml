@@ -2,29 +2,24 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemo/AppDelegate.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemo/ViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemo/User.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MonkeyDemo/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemo/book" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MonkeyDemo/Assets.xcassets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemo/json.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemo/Movie.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemo/casts" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemo/Tag.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemo/AppDelegate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemo/Cast.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemo/Item.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemo/Book.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MonkeyDemo/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MonkeyDemo/Base.lproj/Main.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemoTests/MonkeyDemoTests.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemoTests/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemoTests/data/valid_array_default_root.json" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemoTests/data/problematic_keys.json" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemoTests/data/valid_array_no_root.json" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemoTests/data/valid_object_no_root.json" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemoTests/data/valid_object_default_root_extra_property.json" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemoTests/data/valid_array_custom_root.json" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemoTests/data/valid_object_custom_root_extra_property.json" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemoTests/data/valid_array_default_root_extra_property.json" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemoTests/data/valid_object_default_root.json" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemoTests/data/date_object.json" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemoTests/data/valid_object_custom_root.json" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemoTests/data/valid_array_custom_root_extra_property.json" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Monkey/MKExtensions.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemo/ViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MonkeyDemo/Images.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Monkey/MonkeyForPlist.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Monkey/Monkey.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Monkey/MKObjectExtension.swift" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

@@ -1,6 +1,9 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="MonkeyDemoTests" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="MonkeyDemo" TARGET_NAME="MonkeyDemoTests" CONFIG_NAME="Debug" SCHEME_NAME="MonkeyDemoTests" TEST_MODE="SUITE_TEST" XCODE_SKIPPED_TESTS_HASH_CODE="0">
+  <configuration default="false" name="MonkeyDemoTests" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="MonkeyDemo" TARGET_NAME="MonkeyDemoTests" CONFIG_NAME="Debug" SCHEME_NAME="MonkeyDemoTests" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
     <envs />
+    <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+      <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+    </EXTENSION>
     <method />
   </configuration>
 </component>

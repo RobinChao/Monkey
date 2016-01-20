@@ -19,10 +19,10 @@ class ViewController: UIViewController {
         
         let castUrl = NSURL.fileURLWithPath(NSBundle.mainBundle().pathForResource("casts", ofType: nil)!)
         let castsData = NSData(contentsOfURL: castUrl)
-        let casts = Monkey.modelArray(castsData, clz: Cast.self)
+        let casts = Monkey.modelArray(castsData, clz: Cast.self) 
         print(casts)
         
-        let book = Monkey.model(bookData, clz: Book.self)
+        let book = Monkey.model(bookData, clz: Book.self) 
         NSLog("end")
         book?.images?.large
         
